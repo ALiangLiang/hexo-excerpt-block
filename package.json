@@ -1,14 +1,14 @@
 {
-  "name": "hexo-less",
+  "name": "hexo-excerpt-block",
   "version": "0.1.0",
-  "description": "A plugin for hexo, enable post excerpt to be different from post content.",
+  "description": "A plugin for hexo, enable mark excerpt block in post easily.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuchen/hexo-less.git"
+    "url": "git+https://github.com/ALiangLiang/hexo-excerpt-block.git"
   },
   "keywords": [
     "hexo",
@@ -16,10 +16,10 @@
     "abstract",
     "description"
   ],
-  "author": "Fu Chen",
+  "author": "ALiangLiang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fuchen/hexo-less/issues"
+    "url": "https://github.com/ALiangLiang/hexo-excerpt-block/issues"
   },
-  "homepage": "https://github.com/fuchen/hexo-less#readme"
+  "homepage": "https://github.com/ALiangLiang/hexo-excerpt-block#readme"
 }
