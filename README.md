@@ -58,3 +58,6 @@ Before block tag will be used as an excerpt.
 
 Q: Is this package compatible with [fuchen/hexo-less](https://github.com/fuchen/hexo-less)?  
 A: Yes. But only one method in a post.
+
+Q2: Is excerpt block will be removed in post?  
+A2: No. It's difference from [fuchen/hexo-less](https://github.com/fuchen/hexo-less). Excerpt block will be reserved in post.
