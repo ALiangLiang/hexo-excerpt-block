@@ -1,4 +1,6 @@
 # hexo-excerpt-block
+[![npm version](https://img.shields.io/npm/v/hexo-excerpt-block.svg)](https://www.npmjs.com/package/hexo-excerpt-block)
+
 A plugin for hexo, enable mark excerpt block in post easily. Inspired by [fuchen/hexo-less](https://github.com/fuchen/hexo-less).
 
 ## Install
