@@ -1,10 +1,12 @@
 {
   "name": "hexo-excerpt-block",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A plugin for hexo, enable mark excerpt block in post easily.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "istanbul cover --print both _mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -16,10 +18,25 @@
     "abstract",
     "description"
   ],
-  "author": "ALiangLiang",
+  "author": "ALiangLiang <me@aliangliang.top>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ALiangLiang/hexo-excerpt-block/issues"
   },
-  "homepage": "https://github.com/ALiangLiang/hexo-excerpt-block#readme"
+  "homepage": "https://github.com/ALiangLiang/hexo-excerpt-block#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "hexo": "^3.8.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2"
+  }
 }
